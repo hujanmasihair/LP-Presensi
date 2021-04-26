@@ -1,0 +1,111 @@
+a,
+h1 > a:hover, 
+h2 > a:hover, 
+h3 > a:hover, 
+h4 > a:hover, 
+h5 > a:hover, 
+h6 > a:hover,
+.custom-btn,
+.play-btn:hover > i,
+.button-store .custom-btn:hover i,
+.button-store .custom-btn:hover p,
+.button-store .custom-btn:hover p span,
+.feature-box .box-icon .icon,
+.feature-box:hover .box-text > h4,
+.service-single:hover .icon,
+.overview-box:hover .icon,
+.overview-list .fa-li,
+.pricing-item .pricing-head .price,
+.pricing-item .pricing-head .price .dollar-sign,
+.fixed-menu .nav-menu li a.active,
+.nav-menu li.dropdown .submenu li a.active-submenu,
+.page-header .page-header-content .breadcrumb li a:hover,
+.testimonial-carousel .carousel-text .single-box i,
+.team-member:hover .team-details .title,
+#accordion .card-header a:not(.collapsed),
+#accordion .card-header a:hover,
+.blog-home .blog-col:hover .blog-text h4 > a,
+.price-table .icon,
+.price-table:hover .plan-type,
+.contact-info .icon,
+.contact-form-result > h4,
+footer a:hover,
+.footer-social a:hover > i,
+.blog-post .image-slider .arrows .arrow:hover,
+.post-counters li > a:hover,
+.share-btn:hover > p,
+.share-btn li:hover > a,
+.sidebar .search-form button:hover,
+.sidebar .search-form button:focus,
+.sidebar ul.menu li a:hover, 
+.sidebar ul.menu li a:focus,
+.sidebar ul.links li a:hover, 
+.sidebar ul.links li a:focus,
+.author-social a:hover,
+.icon.colored i {
+	color:#7c4fe0;
+}
+
+.custom-btn,
+.testimonial-carousel .carousel-images .slick-center img,
+.screenshot-slider .owl-dots .owl-dot span {
+	border-color:#7c4fe0;
+}
+
+input:focus, 
+textarea:focus,
+input.notice, 
+textarea.notice {
+	border-color:#7c4fe0 !important;
+}
+
+.page-loader .progress {
+	border-left-color:#7c4fe0;
+}
+
+.user-comment.bypostauthor .user-comment-inner:after {
+	border-top-color:#7c4fe0;
+}
+
+.banner:before {
+	background:linear-gradient(-47deg, #7c4fe0 0%, #4528dc 100%);
+}
+
+.btn,
+.to-top:hover,
+.play-btn,
+.service-single:hover,
+.service-single .icon,
+.overview-box .icon,
+.overview-box:hover,
+.fixed-menu .nav-menu li a.active span:after,
+.nav-menu li.dropdown .submenu li a:hover,
+.search-wrapper .search-close-btn:hover:before,
+.search-wrapper .search-close-btn:hover:after,
+.screenshot-slider .owl-dots .active span,
+.blog-home .blog-col:hover .blog-category,
+.pagination li a.active, 
+.pagination li a:hover,
+.pagination li:last-child a,
+.pagination li:first-child a,
+.sidebar ul.menu li span,
+.recent-post-image:before,
+.tags .tag:hover,
+blockquote {
+	background-color:#7c4fe0;
+}
+
+.btn:hover,
+.pagination li a:hover,
+.pagination li a.active {
+	background-color:#5f36bb;
+}
+
+.team-member .team-social {
+	background-color:rgba(124, 79, 224, 0.85);
+}
+
+
+
+
+

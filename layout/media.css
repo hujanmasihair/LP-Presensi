@@ -1,0 +1,249 @@
+/************************
+    - Media queries -
+************************/
+
+/* Small Devices */
+@media only screen and (max-width:767px) {
+	/* Banner */
+	.banner-text h1 {
+		font-size:36px;
+	}
+	
+	/* Sections */
+	section .container,
+    footer .footer-widgets {
+		padding-top:80px;
+		padding-bottom:80px;
+	}
+	
+	/* Services */
+	.service-mobile {
+		padding-top:30px;
+		margin-bottom:-100px;
+	}
+	
+	/* Testimonials */
+    .testimonial-carousel .carousel-text .single-box {
+	  	width:100%;
+	}
+    
+    /* Footer */
+    footer .widget {
+        text-align:center;
+    }
+}
+
+/* Tablets */
+@media (min-width:768px) {
+	/* Parallax video */
+	.video-btn .video-text {
+		font-size:26px;
+	}
+	
+	.play-btn {
+		width:100px;
+		height:100px;
+		line-height:100px;
+		font-size:30px;
+	}
+}
+
+@media (max-width:991px) {
+	/* Margin */
+	.res-margin {
+		margin-bottom:30px;
+	}
+	
+	/* Mobile menu */
+	.op-mobile-menu {
+		position:fixed;
+		top:0;
+		left:-250px;
+		width:250px;
+		height:100vh;
+		background-color:#111;
+		overflow-y:auto;
+		-webkit-transition:all 0.3s ease-in-out;
+		   -moz-transition:all 0.3s ease-in-out;
+				transition:all 0.3s ease-in-out;
+	}
+	
+	.op-mobile-menu .m-menu-header {
+		padding:30px 15px;
+	}
+	
+	.op-mobile-menu .close-button {
+		position:relative;
+		width:35px;
+		height:35px;
+		background-color:#fff;
+		-webkit-border-radius:50%;
+		   -moz-border-radius:50%;
+				border-radius:50%;
+	}
+	
+	.op-mobile-menu .close-button:after {
+		content:'';
+		position:absolute;
+		left:50%;
+		top:50%;
+		width:60%;
+		height:2px;
+		margin-top:-1px;
+		margin-left:-11px;
+		background-color:#111;
+		-webkit-transform:rotate(-45deg);
+		   -moz-transform:rotate(-45deg);
+				transform:rotate(-45deg);
+		transform-origin:center;
+	}
+	
+	.op-mobile-menu .close-button:before {
+		content:'';
+		position:absolute;
+		left:50%;
+		top:50%;
+		width:60%;
+		height:2px;
+		margin-top:-1px;
+		margin-left:-11px;
+		background-color:#111;
+		-webkit-transform:rotate(45deg);
+		   -moz-transform:rotate(45deg);
+				transform:rotate(45deg);
+		transform-origin:center;
+	}
+	
+	.mobile-menu-open .op-mobile-menu {
+		left:0;
+	}
+    
+    /* Banner */
+	.banner {
+		height:auto;
+	}
+	
+    .banner-text .button-store .custom-btn {
+        padding:10px;
+        min-width:150px;
+    }
+	
+	.banner-image-center {
+		max-width:100%;
+	}
+}
+
+/* Medium Devices */
+@media (min-width:992px) {
+	/* Section header */
+	.section-title h3 {
+		font-size:2.25em;
+	}
+	
+	/* Navigation */
+	.main-menu-area .navbar-brand1 {
+		padding:0;
+	}
+	
+	.nav-menu li a {
+		padding:10px 12px;
+		text-align:left;
+		border-bottom:none;
+	}
+	
+	.nav-menu li a:hover, 
+	.nav-menu li a.active {
+		background-color:transparent;
+		color:#fff;
+	}
+
+	.nav-menu li a:hover span:after, 
+	.nav-menu li a.active span:after {
+		left:0;
+		right:auto;
+		width:100%;
+	}
+	
+	.nav-menu li.dropdown .submenu {
+		position:absolute;
+		display:block;
+		padding-right:0;
+		min-width:230px;
+		background-color:#fff;
+		left:0;
+		top:100%;
+		-webkit-transform:scaleY(0);
+		   -moz-transform:scaleY(0);
+				transform:scaleY(0);
+		transform-origin:top;
+		-webkit-transition:all 0.3s ease-in-out;
+		   -moz-transition:all 0.3s ease-in-out;
+				transition:all 0.3s ease-in-out;
+	}
+	
+	.nav-menu li.dropdown .submenu li a {
+		display:block;
+		padding:13px 20px;
+		color:#111;
+		font-size:80%;
+		-webkit-transition:all 0.3s ease-in-out;
+		   -moz-transition:all 0.3s ease-in-out;
+				transition:all 0.3s ease-in-out;
+	}
+	
+	.nav-menu li.dropdown .submenu li a:hover {
+		background-color:#6f64e7;
+		color:#fff;
+	}
+	
+	.nav-menu li.dropdown .submenu li a.active-submenu {
+		background-color:#6f64e7;
+		color:#fff;
+	}
+	
+	.nav-menu li.dropdown:hover .submenu {
+		-webkit-transform:scaleY(1);
+		   -moz-transform:scaleY(1);
+				transform:scaleY(1);
+	}
+	
+	.main-menu-area.fixed-menu {
+		padding:17px 20px;
+	}
+	
+	.main-menu-area.fixed-menu .nav-menu li a {
+		color:#111;
+	}
+	
+	.main-menu-area.fixed-menu .nav-menu li a span:after {
+		background-color:#111;
+	}
+	
+	/* Search */
+	.search-body .menu-search-form input {
+		font-size:36px;
+	}
+	
+	/* Banner */	
+	.banner .banner-text {
+		text-align:left;
+	}
+}
+
+@media (min-width:1200px) {
+	/* Navigation */
+	.nav-menu li a {
+		padding:10px 20px;
+	}
+}
+
+/* Desktops */
+@media (min-width:1500px) {
+	/* Reset */
+	p {
+		font-size:16px;
+		line-height:1.75;
+	}
+}
+
+
